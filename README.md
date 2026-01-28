@@ -1,16 +1,83 @@
-# React + Vite
+📦 Product Management System (React + Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Product Management System built using React, Redux Toolkit, and Bootstrap. This application allows users to add, view, search, sort, update, and delete products easily.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Preview:
+https://react-practice-exam.netlify.app/
 
-## React Compiler
+📸 Screenshots
+➤ Product Form Page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+(Add Product Form)
 
-## Expanding the ESLint configuration
+➤ Product List Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+(View, Search & Sort Products)
+
+(You can upload screenshots to GitHub and link them here later)
+
+✨ Features
+
+✔ Add new products
+✔ View product list
+✔ Search products by name
+✔ Sort products by price (Low → High / High → Low)
+✔ Update existing products
+✔ Delete products
+✔ Responsive UI
+✔ Redux state management
+
+🛠️ Technologies Used
+
+⚛️ React.js
+
+🧠 Redux Toolkit
+
+📦 React-Redux
+
+🎨 Bootstrap
+
+⚡ Vite
+
+🌐 React Router DOM
+
+📂 Project Structure
+src/
+<br/>
+│
+<br/>
+├── assets/
+<br/>
+├── components/
+<br/>
+│   ├── pages/
+<br/>
+│   │   ├── ProductForm.jsx
+<br/>
+│   │   └── ProductList.jsx
+<br/>
+│
+<br/>
+├── features/
+<br/>
+│   └── product/
+<br/>
+│       ├── productSlice.js
+<br/>
+│       └── productThunk.js
+<br/>
+│
+<br/>
+├── store/
+<br/>
+│   └── store.js
+<br/>
+│
+<br/>
+├── App.jsx
+<br/>
+├── main.jsx
+<br/>
+└── index.css
